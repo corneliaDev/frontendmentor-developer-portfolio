@@ -15,6 +15,5 @@ export const updateContactsDB = async (data: FieldValues) => {
     return data;
   } catch (error) {
     toast.error("Error submitting form");
-    console.error("Error submitting form", error);
   }
 };
