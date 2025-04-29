@@ -2,7 +2,7 @@ import Link from "./Link";
 
 export default function Header() {
   return (
-    <header className="flex flex-col items-center tablet:items-start mx-4 tablet:mx-[1.875rem] desktop:mx-[10.3125rem] tablet:mt-[1.875rem] desktop:mt-24 relative ">
+    <header className="flex flex-col items-center tablet:items-start mx-4 tablet:mx-[1.875rem] desktop:mx-[10.3125rem] tablet:mt-[1.875rem] desktop:mt-20 relative ">
       <img
         src="/images/pattern-rings.svg"
         alt="background pattern rings"
