@@ -3,7 +3,7 @@ import Experience from "./Experience";
 
 export default function ExperienceList() {
   return (
-    <section className="relative mx-4 tablet:mx-[1.875rem] desktop:mx-[10.3125rem] mt-20 desktop:mt-[20.1875rem]">
+    <div className="relative mx-4 tablet:mx-[1.875rem] desktop:mx-[10.3125rem] mt-20 desktop:mt-64">
       <img
         src="/images/pattern-rings.svg"
         alt="background pattern rings"
@@ -14,6 +14,6 @@ export default function ExperienceList() {
           <Experience item={item} key={item.id} />
         ))}
       </ul>
-    </section>
+    </div>
   );
 }
